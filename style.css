@@ -1,0 +1,216 @@
+/*base style all elements of all the pages*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*style the body of all the pages*/
+body {
+    background-color: #f8edeb;
+}
+
+/*style the header of all the pages*/
+header {
+    border-style: double;
+    border-radius: 1rem;
+    border-color: #ffb6a7c7;
+    border-width: 0.7rem;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #fcd5ce11;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 5px 15px;
+}
+
+/*style of the header title of all the pages*/
+header h1 {
+    font-weight: 1000;
+    display: flex;
+    flex-grow: 10;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*style the navigation of all the pages*/
+nav {
+    background-color: var(--secondary-bg);
+    flex-grow: 1;
+    text-align: center;
+}
+
+/*style the navigation of all the pages*/
+nav ul li {
+    display: inline;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    background-color: #FFB5A7;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: padding 0.3s, background-color 1s;
+}
+
+/*style when hovering the navigation of all the pages*/
+ul li:hover {
+    background-color: #F9DCC4;
+    padding: .5rem 0.6rem 0.5rem 0.6rem;
+}
+
+/*style the navigation of all the pages*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+/*just adds bold to this text*/
+.bold-please {
+    font-weight: bold;
+}
+
+/*used for picture of beda and code*/
+.selfie {
+    width: 30%;
+    border-radius: 1rem;
+    border-width: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.277) 0px 5px 15px;
+    float: left;
+    margin: 0.75rem 0.75rem -0.3rem 0.75rem;
+    transition: width 1s, box-shadow 2s;
+}
+
+/*used for hovering over picture of beda and code*/
+.selfie:hover {
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 5px 15px;
+}
+
+/*used for picture of code*/
+.selfie-float-right {
+    float: right;
+}
+
+/*used for picture of beda*/
+.selfie-float-left {
+    float: left;
+}
+
+/*formatting content blurb of home page*/
+.home-content {
+    max-width: 80%;
+    margin: auto;
+}
+
+/*formatting content blurb title of home page*/
+.home-content-title-container {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: rgba(255, 55, 55, 0.205) 0px 5px 15px;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/*formatting content blurb title of home page*/
+.home-content-title-container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+/*formatting content blurb title of home page*/
+.home-content-blurb-title {
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    background-color: #ffb6a76b;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+/*formatting content blurb of home page*/
+.home-content-blurb {
+    background-color: #ffffff;
+    padding: 1rem;
+    max-width: 80%;
+    margin: auto;
+    box-shadow: rgba(255, 55, 55, 0.205) 0px 5px 15px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*formatting content blurb title of home page*/
+.home-content-blurb-title {
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+/*formatting content blurb of home page*/
+.home-content-blurb article p {
+    margin: 0.75rem 0.75rem 0.75rem 0.75rem;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/*formatting footer of all pages*/
+footer {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/*adding responsiveness to website when using a smaller screen*/
+@media screen and (max-width: 700px) {
+    .selfie {
+        width: 45%;
+    }
+
+    .selfie:hover {
+        width: 60%;
+    }
+
+    nav {
+        width: 80%;
+        text-align: center;
+    }
+
+    nav ul li {
+        max-width: 8rem;
+        display: inline-block;
+        width: 90%;
+        padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+        margin: 0rem 0rem 0.25rem 0rem;
+    }
+}
+
+/*adding responsiveness to website when using a smaller screen*/
+@media screen and (max-width: 900px) {
+    header {
+        max-width: 97%;
+        margin-bottom: 3rem;
+    }
+
+    .home-content {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .home-content-title-container {
+        max-width: 95%;
+        margin-bottom: 2rem;
+    }
+
+    .home-content-blurb {
+        max-width: 95%;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+}

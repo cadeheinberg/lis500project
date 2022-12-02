@@ -1,0 +1,205 @@
+/*style the content blurb format for trecia page*/
+.trecia-content {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*style of the php lucky number and dark and light mode*/
+.fun-header {
+    border-width: 0.7rem;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: rgba(255, 55, 55, 0.205) 0px 5px 15px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+/*style of the header for the blurb of the php lukcy number and dark and light mode*/
+.fun-header h1 {
+    margin-bottom: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*style of the php form for the dark and light mode buttons*/
+.fun-header form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+/*style of the php lucky number and dark and light mode*/
+.fun-header p {
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*style of the php form for the dark and light mode buttons*/
+.fun-header form input {
+    width: 100%;
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border: none;
+    background-color: #ffcb59;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*style the content blurb title format for trecia page*/
+.trecia-content-title-container {
+    text-align: center;
+    max-width: 40%;
+    min-width: 400px;
+    margin-bottom: 2rem;
+}
+
+/*style the content blurb title format for trecia page div*/
+.trecia-content-title-container div {
+    background-color: #ffffff;
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+    box-shadow: rgba(255, 55, 55, 0.205) 0px 5px 15px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/*style the content blurb title format for trecia page h1*/
+.trecia-content-title-container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-shadow: 1.5px 1.5px #00000023;
+    background-color: #ffb6a76b;
+}
+
+/*style the content blurb img for trecia page*/
+.trecia-content-title-container img {
+    max-width: 90%;
+    min-width: 50%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.277) 0px 5px 15px;
+}
+
+/*style the content blurb title format for trecia page*/
+.trecia-content-title-container h3 {
+    font-family: 'Dancing Script', cursive;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    text-shadow: 1.5px 1.5px #00000023;
+    background-color: #ffb6a76b;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+/*style the content blurb format for trecia page*/
+.trecia-content-blurb {
+    background-color: #ffffff;
+    padding: 1rem;
+    max-width: 60%;
+    min-width: 400px;
+    box-shadow: rgba(255, 55, 55, 0.205) 0px 5px 15px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*style the content blurb title format for trecia page*/
+.trecia-content-blurb-title {
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    background-color: #ffb6a76b;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+/*style the content blurb format for trecia page*/
+.trecia-content-blurb article p {
+    margin: 0.75rem 0.75rem 0.75rem 0.75rem;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 95%;
+    text-align: center;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article input {
+    margin: auto;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    width: 80%;
+    display: block;
+    font-size: 13px;
+    max-width: 80%;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article-submit {
+    background: #ff937e;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/*style the signup for newsletter form at bottom*/
+#newsletter-article-submit:hover {
+    background-color: #f56457;
+}
+
+/*adding responsiveness to website when using a smaller screen*/
+@media screen and (max-width: 942px) {
+    .fun-header {
+        max-width: 90%;
+    }
+
+    .fun-header form input {
+        margin: 0rem 0.25rem 0rem 0.25rem;
+    }
+
+    .trecia-content {
+        max-width: 100%;
+    }
+
+    .trecia-content-title-container div {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .trecia-content-title-container {
+        max-width: 85%;
+        min-width: 0px;
+    }
+
+    .trecia-content-blurb {
+        max-width: 95%;
+        min-width: 0px;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+}
